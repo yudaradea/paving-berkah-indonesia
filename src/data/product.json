@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "img": "hero.png",
+    "title": "Paving Block Bata",
+    "category": "Paving",
+    "desc": "Pilihan ekonomis untuk halaman, area parkir, jalan lingkungan, dan kebutuhan proyek dengan pola pemasangan fleksibel.",
+    "specs": ["Tebal 6-8 cm", "Abu, merah, hitam", "Light sampai medium duty"]
+  },
+  {
+    "id": 2,
+    "img": "tentangKami.jpg",
+    "title": "Paving Hexagon",
+    "category": "Paving",
+    "desc": "Bentuk segi enam yang kuat secara visual dan stabil untuk area publik, trotoar, taman, dan koridor komersial.",
+    "specs": ["Tekstur rapi", "Pola interlock", "Cocok area pedestrian"]
+  },
+  {
+    "id": 3,
+    "img": "hero.png",
+    "title": "Grass Block",
+    "category": "Drainase",
+    "desc": "Solusi permukaan hijau yang tetap kuat untuk carport, taman, area resapan, dan parkir ramah lingkungan.",
+    "specs": ["Ruang tanam luas", "Mengurangi genangan", "Tampilan natural"]
+  },
+  {
+    "id": 4,
+    "img": "tentangKami.jpg",
+    "title": "Kanstin Jalan",
+    "category": "Pembatas",
+    "desc": "Pembatas tepi jalan, taman, dan area parkir dengan dimensi presisi untuk finishing proyek yang bersih.",
+    "specs": ["Kuat tekan stabil", "Finishing halus", "Instalasi cepat"]
+  },
+  {
+    "id": 5,
+    "img": "hero.png",
+    "title": "Conblock Heavy Duty",
+    "category": "Industrial",
+    "desc": "Dirancang untuk area dengan mobilitas tinggi seperti gudang, loading bay, dan kawasan industri.",
+    "specs": ["Mutu tinggi", "Tahan beban", "Cocok forklift"]
+  },
+  {
+    "id": 6,
+    "img": "tentangKami.jpg",
+    "title": "Jasa Pemasangan",
+    "category": "Service",
+    "desc": "Tim pemasangan untuk persiapan lahan, pemadatan, leveling, pola pasang, sampai finishing pasir pengisi.",
+    "specs": ["Survey lokasi", "Estimasi kebutuhan", "Pengerjaan rapi"]
+  }
+]

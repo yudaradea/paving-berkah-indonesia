@@ -1,0 +1,6 @@
+[
+  { "step": "01", "title": "Konsultasi", "desc": "Kirim ukuran area, fungsi lahan, dan preferensi warna atau pola." },
+  { "step": "02", "title": "Survey dan RAB", "desc": "Kami hitung kebutuhan material, biaya pengiriman, dan opsi pemasangan." },
+  { "step": "03", "title": "Produksi", "desc": "Material disiapkan sesuai tipe, warna, mutu, dan jadwal proyek." },
+  { "step": "04", "title": "Kirim dan Pasang", "desc": "Produk dikirim ke lokasi dan dapat dilanjutkan pemasangan oleh tim lapangan." }
+]

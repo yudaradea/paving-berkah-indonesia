@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Presisi dan Rapi",
+    "desc": "Produk dipilih dengan ukuran konsisten agar pola pasang terlihat solid dan mudah dikontrol di lapangan.",
+    "icon": "grid"
+  },
+  {
+    "title": "Material Terkurasi",
+    "desc": "Bahan baku, warna, dan tekstur disiapkan untuk kebutuhan halaman rumah sampai area proyek berskala besar.",
+    "icon": "shield"
+  },
+  {
+    "title": "Pengiriman Terjadwal",
+    "desc": "Alur pemesanan dibuat ringkas supaya suplai material mengikuti timeline pekerjaan.",
+    "icon": "truck"
+  },
+  {
+    "title": "Konsultasi Teknis",
+    "desc": "Kami bantu rekomendasi tipe paving, ketebalan, pola, dan kebutuhan area berdasarkan fungsi lahan.",
+    "icon": "chat"
+  }
+]

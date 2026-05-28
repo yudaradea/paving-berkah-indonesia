@@ -1,0 +1,27 @@
+{
+  "brand": "Paving Berkah Indonesia",
+  "tagline": "Paving presisi untuk kawasan yang bergerak cepat.",
+  "description": "Memproduksi, Memasang Beton Pracetak Standar Tinggi Untuk Infrastruktur Jalan Yang Aman, Rapi, Estetik, dan Tahan Banjir di Area Komersial Maupun Urban.",
+  "contact": {
+    "phone": "+62 821 2452 9822",
+    "whatsapp": "6282124529822",
+    "email": "pavingberkah@gmail.com",
+    "address": "Kp Mengger RT. 003 RW. 003, Mandalasari, Kaduhejo, Kab Pandeglang, Banten",
+    "hours": "Senin - Sabtu, 08.00 - 17.00 WIB",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.3634100044337!2d105.86697991106588!3d-6.346966193616355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e42330077d80089%3A0xb38799cbc2bb7787!2sKp%20mengger!5e0!3m2!1sen!2sid!4v1779972546731!5m2!1sen!2sid"
+  },
+  "companyProfile": "/assets/company-profile.pdf",
+  "stats": [
+    { "value": "12+", "label": "varian produk" },
+    { "value": "24 jam", "label": "respon penawaran" },
+    { "value": "QC", "label": "kontrol mutu produksi" }
+  ],
+  "nav": [
+    { "label": "Beranda", "target": "hero" },
+    { "label": "Tentang", "target": "about" },
+    { "label": "Produk", "target": "products" },
+    { "label": "Keunggulan", "target": "advantages" },
+    { "label": "Proyek", "target": "projects" },
+    { "label": "Kontak", "target": "contact" }
+  ]
+}

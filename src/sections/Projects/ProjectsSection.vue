@@ -10,7 +10,7 @@ import { imageUrl } from '../../utils/image';
       <SectionHeading
         eyebrow="Proyek"
         title="Referensi tampilan untuk kebutuhan hunian, komersial, dan industri."
-        description="Paving Berkah Indonesia telah menyelesaikan berbagai proyek pemasangan paving block di berbagai segmen industri mulai dari Commercial Area, Ruang Publik (Public Space), Stasiun Pengisian BBM (Gas Station), Sekolah (School), Instansi Pemerintah (Government), Hunian (Residential), Retail, Pergudangan (Warehouse), dan Pelabuhan (Port)."
+        description="Paving Berkah Indonesia telah menyelesaikan berbagai proyek pemasangan paving block di berbagai segmen industri mulai dari Area Komersial, Ruang Publik, Stasiun Pengisian BBM, Instansi Pemerintah, Hunian), Retail, Pergudangan, dan Pelabuhan."
       />
 
       <div class="grid gap-5 mt-14 lg:grid-cols-3">

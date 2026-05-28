@@ -12,7 +12,9 @@ defineProps({
 
 <template>
   <div :class="wide ? 'max-w-none' : 'max-w-3xl'" data-aos="fade-up">
-    <p class="text-[13px] font-black uppercase tracking-[0.22em] text-red-600 md:text-sm md:tracking-[0.28em]">
+    <p
+      class="text-[13px] font-black uppercase tracking-[0.22em] text-red-600 md:text-sm md:tracking-[0.28em]"
+    >
       {{ eyebrow }}
     </p>
     <h2

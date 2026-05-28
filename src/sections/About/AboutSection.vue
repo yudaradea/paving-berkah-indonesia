@@ -13,8 +13,9 @@ import { imageUrl } from '../../utils/image';
         <SectionHeading
           eyebrow="Tentang kami"
           title="Partner material paving yang tajam di kualitas, cepat di eksekusi."
-          description="PT Paving Berkah Indonesia memiliki fasilitas produksi beton pracetak yang berlokasi di Mandalasari Kab Pandeglang Banten Indonesia, dengan dukungan sistem produksi modern berbasis Full Automatic Machine untuk menunjang kebutuhan proyek konstruksi secara efisien, presisi, dan tepat waktu. Lokasi pabrik yang strategis memungkinkan proses distribusi berjalan optimal untuk melayani berbagai kebutuhan proyek residential, commercial, industrial, hingga infrastruktur publik di wilayah Banten dan sekitarnya."
-          description2="Didukung area produksi yang terorganisir, stock yard yang memadai, serta sistem Quality Control yang ketat, PT PBI berkomitmen menghasilkan produk beton pracetak berkualitas tinggi dengan standar produksi yang konsisten."
+          description="CV Paving Berkah Indonesia merupakan perusahaan manufaktur beton pracetak yang berfokus pada produksi dan distribusi produk Concrete Block berkualitas tinggi untuk kebutuhan pembangunan modern.
+"
+          description2="Kami berkomitmen menjadi mitra terpercaya dalam mendukung pembangunan infrastruktur Indonesia melalui produk berkualitas, pelayanan profesional, dan ketepatan distribusi proyek."
         />
         <a
           :href="site.companyProfile"
@@ -60,7 +61,7 @@ import { imageUrl } from '../../utils/image';
         <div
           class="absolute p-6 text-white bottom-6 left-6 right-6 bg-black/88 backdrop-blur"
         >
-          <p class="text-3xl font-black">Rapi dari dasar.</p>
+          <p class="text-2xl font-black md:text-3xl">Rapi dari dasar.</p>
           <p class="mt-2 text-sm leading-6 text-white/65">
             Permukaan akhir yang bagus selalu dimulai dari rekomendasi material
             dan persiapan lahan yang benar.

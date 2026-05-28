@@ -17,7 +17,7 @@ import site from '../../data/site.json';
         <a
           :href="`https://wa.me/${site.contact.whatsapp}`"
           target="_blank"
-          class="inline-flex items-center justify-center gap-3 bg-black px-7 py-4 font-black text-white transition hover:-translate-y-1 hover:bg-neutral-900"
+          class="inline-flex w-full items-center justify-center gap-3 bg-black px-7 py-4 font-black text-white transition hover:-translate-y-1 hover:bg-neutral-900 sm:w-auto"
         >
           <i class="fa-brands fa-whatsapp"></i>
           Chat WhatsApp
@@ -25,7 +25,7 @@ import site from '../../data/site.json';
         <a
           :href="site.companyProfile"
           download
-          class="inline-flex items-center justify-center gap-3 border border-white/35 px-7 py-4 font-black text-white transition hover:-translate-y-1 hover:bg-white hover:text-black"
+          class="inline-flex w-full items-center justify-center gap-3 border border-white/35 px-7 py-4 font-black text-white transition hover:-translate-y-1 hover:bg-white hover:text-black sm:w-auto"
         >
           <i class="fa-solid fa-download"></i>
           Download Compro

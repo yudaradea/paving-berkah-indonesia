@@ -14,13 +14,22 @@
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 92px;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 body {
   margin: 0;
   min-width: 320px;
+  max-width: 100%;
   overflow-x: hidden;
   font-family: 'Poppins', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 ::selection {
@@ -34,6 +43,8 @@ img {
 
 #app {
   min-height: 100vh;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .container {
@@ -44,5 +55,10 @@ img {
 @media (max-width: 640px) {
   .container {
     width: min(100% - 28px, 1360px);
+  }
+
+  [data-aos='fade-left'],
+  [data-aos='fade-right'] {
+    transform: translate3d(0, 24px, 0);
   }
 }

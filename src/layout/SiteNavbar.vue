@@ -68,13 +68,17 @@ onUnmounted(() => {
           : 'border-white/10 bg-black/30 text-white'
       "
     >
-      <a href="#hero" class="flex items-center gap-3" @click.prevent="scrollToSection('hero')">
-        <img :src="logo" alt="PBI" class="h-11 w-auto object-contain" />
-        <span class="leading-tight">
+      <a
+        href="#hero"
+        class="flex min-w-0 items-center gap-2 sm:gap-3"
+        @click.prevent="scrollToSection('hero')"
+      >
+        <img :src="logo" alt="PBI" class="h-9 w-auto shrink-0 object-contain sm:h-11" />
+        <span class="min-w-0 leading-tight">
           <span class="block text-sm font-black uppercase tracking-[0.24em]"
             >Paving</span
           >
-          <span class="block text-xs font-semibold opacity-75"
+          <span class="block truncate text-xs font-semibold opacity-75"
             >Berkah Indonesia</span
           >
         </span>
@@ -103,7 +107,7 @@ onUnmounted(() => {
       </a>
 
       <button
-        class="grid h-11 w-11 place-items-center border border-current/20 lg:hidden"
+        class="grid h-10 w-10 shrink-0 place-items-center border border-current/20 sm:h-11 sm:w-11 lg:hidden"
         type="button"
         aria-label="Toggle menu"
         @click="isOpen = !isOpen"

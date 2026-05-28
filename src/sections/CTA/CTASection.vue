@@ -24,7 +24,7 @@ import site from '../../data/site.json';
         </a>
         <a
           :href="site.companyProfile"
-          download
+          download="company-profile.pdf"
           class="inline-flex w-full items-center justify-center gap-3 border border-white/35 px-7 py-4 font-black text-white transition hover:-translate-y-1 hover:bg-white hover:text-black sm:w-auto"
         >
           <i class="fa-solid fa-download"></i>

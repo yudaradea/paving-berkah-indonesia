@@ -18,7 +18,7 @@ import { imageUrl } from '../../utils/image';
         />
         <a
           :href="site.companyProfile"
-          download
+          download="company-profile.pdf"
           class="inline-flex items-center gap-3 px-6 py-4 mt-8 text-sm font-black text-white transition bg-red-600 shadow-xl shadow-red-950/15 hover:-translate-y-1 hover:bg-red-700"
           data-aos="fade-up"
         >

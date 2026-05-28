@@ -34,7 +34,7 @@ const heroImage = imageUrl('hero.png');
           Produsen dan pemasangan paving
         </p>
         <h1
-          class="text-4xl font-black leading-none sm:text-5xl md:text-7xl lg:text-8xl"
+          class="text-[35px] font-black leading-none sm:text-5xl md:text-7xl lg:text-8xl"
           data-aos="fade-up"
           data-aos-delay="100"
         >
@@ -42,7 +42,7 @@ const heroImage = imageUrl('hero.png');
           ><span><span class="text-red-500">Ber</span>kah Indonesia</span>
         </h1>
         <p
-          class="max-w-2xl text-base leading-8 mt-7 text-white/72 md:text-xl"
+          class="max-w-2xl text-[15px] leading-8 mt-7 text-white/72 md:text-xl"
           data-aos="fade-up"
           data-aos-delay="200"
         >

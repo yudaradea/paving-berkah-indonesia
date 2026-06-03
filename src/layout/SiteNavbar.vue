@@ -6,10 +6,36 @@ import logo from '../assets/images/logo.png';
 const isOpen = ref(false);
 const isScrolled = ref(false);
 const activeSection = ref('hero');
-let observer;
+let ticking = false;
+
+const updateActiveSection = () => {
+  const anchorY = window.innerHeight * 0.35;
+
+  const currentSection = site.nav
+    .map((item) => ({
+      target: item.target,
+      section: document.getElementById(item.target)
+    }))
+    .filter(({ section }) => section)
+    .find(({ section }) => {
+      const rect = section.getBoundingClientRect();
+      return rect.top <= anchorY && rect.bottom > anchorY;
+    });
+
+  if (currentSection) {
+    activeSection.value = currentSection.target;
+  }
+};
 
 const handleScroll = () => {
   isScrolled.value = window.scrollY > 24;
+
+  if (ticking) return;
+  ticking = true;
+  window.requestAnimationFrame(() => {
+    updateActiveSection();
+    ticking = false;
+  });
 };
 
 const scrollToSection = (target) => {
@@ -26,32 +52,11 @@ const scrollToSection = (target) => {
 onMounted(() => {
   window.addEventListener('scroll', handleScroll);
   handleScroll();
-
-  observer = new IntersectionObserver(
-    (entries) => {
-      const visibleEntry = entries
-        .filter((entry) => entry.isIntersecting)
-        .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
-
-      if (visibleEntry) {
-        activeSection.value = visibleEntry.target.id;
-      }
-    },
-    {
-      rootMargin: '-22% 0px -62% 0px',
-      threshold: [0.1, 0.25, 0.5]
-    }
-  );
-
-  site.nav.forEach((item) => {
-    const section = document.getElementById(item.target);
-    if (section) observer.observe(section);
-  });
+  updateActiveSection();
 });
 
 onUnmounted(() => {
   window.removeEventListener('scroll', handleScroll);
-  if (observer) observer.disconnect();
 });
 </script>
 

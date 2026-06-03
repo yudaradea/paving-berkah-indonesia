@@ -1,20 +1,20 @@
 [
   {
     "title": "Area Parkir Komersial",
-    "location": "Tangerang",
-    "img": "hero.png",
+    "location": "",
+    "img": "paving-parkir.jpg",
     "desc": "Pemasangan paving medium duty dengan pola bersih untuk akses kendaraan harian."
   },
   {
     "title": "Halaman Hunian Modern",
-    "location": "Bekasi",
-    "img": "tentangKami.jpg",
+    "location": "",
+    "img": "paving-hunian.jpg",
     "desc": "Kombinasi paving merah dan hitam untuk tampilan tegas tanpa mengorbankan drainase."
   },
   {
     "title": "Koridor Kawasan Industri",
-    "location": "Karawang",
-    "img": "hero.png",
+    "location": "",
+    "img": "paving-halaman-industri.png",
     "desc": "Material tebal dan pemasangan presisi untuk area dengan lalu lintas operasional padat."
   }
 ]
